@@ -7,7 +7,9 @@ public class Calculator {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         frame.setSize(350, 575);
-
+          
+        //frame.setSize(350, 575);
+        
         JMenuBar mb = new JMenuBar();
         JMenu m1 = new JMenu("Mode");
         JMenu m2 = new JMenu("Help");
